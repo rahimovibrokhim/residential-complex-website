@@ -75,7 +75,6 @@ header {
     h2 {
         color: #1A1A1A;
         text-align: center;
-        font-size: 64px;
         font-family: TT Travels;
         font-style: normal;
         font-weight: 700;
@@ -87,7 +86,6 @@ header {
     p.descript {
         color: var(--text-primary, #1A1A1A);
         text-align: center;
-        font-size: 24px;
         font-family: Helvetica Neue;
         font-style: normal;
         font-weight: 400;
@@ -98,7 +96,6 @@ header {
     }
 
     .award-winner {
-        // padding: 0 60px;
 
         .award-content {
             p {
@@ -373,6 +370,39 @@ header {
 
         h5 {
             color: var(--line-dark, #C2BDB6);
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    .container-2 {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        padding: 0 25px;
+    }
+
+    .container-2 {
+        padding: 0 15px;
+    }
+
+    header {
+        .left p {
+            display: none;
+        }
+    }
+
+    #hero {
+        h2 {
+            font-size: 25px;
+            letter-spacing: 0px;
         }
     }
 }

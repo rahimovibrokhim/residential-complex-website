@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 
 function App() {
   return (
@@ -27,28 +27,33 @@ function App() {
           <div className="container-2">
             <div>
               <img src="wg-logo.svg" alt="West Garden" />
-              <h2>
+              <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl">
                 Жизнь в зеленом оазисе <br /> в статусном районе Москвы
               </h2>
-              <p className="descript underline underline-offset-8">
+              <p className="text-xl sm:text-2xl descript underline underline-offset-8">
                 Жилой комплекс бизнес-класса в 20 минутах от Кремля
               </p>
             </div>
 
             <div className="mt-14 relative award-winner">
-              <img className="w-full" src="hero-img.png" alt="award-winner" />
-              <div className="award-content bg-white rounded-md px-3 py-4 absolute -top-8 right-10">
+              <img
+                style={{ minHeight: "250px" }}
+                className="w-full"
+                src="hero-img.png"
+                alt="award-winner"
+              />
+              <div className="award-content bg-white rounded-md px-3 py-4 flex flex-col  mt-3 static sm:absolute -top-8 right-10">
                 <img src="hero-award.svg" alt="logo" />
                 <p className="text-center mt-2">
                   Победитель <br /> федеральной премии <br /> Urban Awards 2019
                 </p>
               </div>
               <div className="plans-creator absolute bottom-5 flex gap-3">
-                <div className="plans flex gap-2">
+                <div className="plans hidden sm:flex gap-2">
                   <p className="order">1 очередь</p>{" "}
                   <p className="year">2022</p>
                 </div>
-                <div className="plans flex gap-2">
+                <div className="plans hidden sm:flex gap-2">
                   <p className="order">2 очередь</p>{" "}
                   <p className="year">2023</p>
                 </div>
@@ -56,7 +61,7 @@ function App() {
             </div>
           </div>
 
-          <div className="container">
+          {/* <div className="container">
             <div className="projects mt-20 grid grid-cols-2 gap-5">
               <div className="project bg-[url('hero-project1.png')]">
                 <p className="project-size">20 гектаров</p> <br />
@@ -83,10 +88,10 @@ function App() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
 
-        <section id="location">
+        {/* <section id="location">
           <div className="container">
             <div className="mt-40">
               <h3>Престижное расположение</h3>
@@ -109,9 +114,9 @@ function App() {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="lobby">
+        {/* <section id="lobby">
           <div className="container">
             <div className="pt-40">
               <h2>Современная эстетика лобби</h2>
@@ -173,9 +178,9 @@ function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="trim">
+        {/* <section id="trim">
           <div className="container">
             <div className="mt-40">
               <h2>Отделка от застройщика</h2>
@@ -335,7 +340,7 @@ function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <div className="mt-40"></div>
       </main>

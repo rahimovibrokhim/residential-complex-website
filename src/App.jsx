@@ -63,28 +63,28 @@ function App() {
 
           <div className="container">
             <div className="projects mt-20 grid sm:grid-cols-2 gap-5">
-              <div className="project bg-center bg-[url('/hero-project1.png')]">
+              <div className="project bg-center bg-[url('../public/hero-project1.png')]">
                 <p className="project-size text-xl sm:text-2xl">20 гектаров</p>{" "}
                 <br />
                 <p className="project-location sm:text-xl">
                   территории ЖК — это как полтора Зарядья
                 </p>
               </div>
-              <div className="project bg-center bg-[url('/hero-project2.png')]">
+              <div className="project bg-center bg-[url('../public/hero-project2.png')]">
                 <p className="project-size text-xl sm:text-2xl">15 корпусов</p>{" "}
                 <br />
                 <p className="project-location sm:text-xl">
                   по 12-14 этажей, просторная застройка
                 </p>
               </div>
-              <div className="project bg-center bg-[url('/hero-project3.png')]">
+              <div className="project bg-center bg-[url('../public/hero-project3.png')]">
                 <p className="project-size text-xl sm:text-2xl">7 гектаров</p>{" "}
                 <br />
                 <p className="project-location sm:text-xl">
                   приватного парка для жителей ЖК
                 </p>
               </div>
-              <div className="project bg-center bg-[url('/hero-project4.png')]">
+              <div className="project bg-center bg-[url('../public/hero-project4.png')]">
                 <p className="project-size text-xl sm:text-2xl">2 километра</p>{" "}
                 <br />
                 <p className="project-location sm:text-xl">
@@ -95,7 +95,7 @@ function App() {
           </div>
         </section>
 
-        <section id="location">
+         <section id="location">
           <div className="container">
             <div className="mt-24 sm:mt-40">
               <h3>Престижное расположение</h3>

@@ -61,44 +61,52 @@ function App() {
             </div>
           </div>
 
-          {/* <div className="container">
-            <div className="projects mt-20 grid grid-cols-2 gap-5">
-              <div className="project bg-[url('hero-project1.png')]">
-                <p className="project-size">20 гектаров</p> <br />
-                <p className="project-location">
+          <div className="container">
+            <div className="projects mt-20 grid sm:grid-cols-2 gap-5">
+              <div className="project bg-center bg-[url('hero-project1.png')]">
+                <p className="project-size text-xl sm:text-2xl">20 гектаров</p>{" "}
+                <br />
+                <p className="project-location sm:text-xl">
                   территории ЖК — это как полтора Зарядья
                 </p>
               </div>
-              <div className="project bg-[url('hero-project2.png')]">
-                <p className="project-size">15 корпусов</p> <br />
-                <p className="project-location">
+              <div className="project bg-center bg-[url('hero-project2.png')]">
+                <p className="project-size text-xl sm:text-2xl">15 корпусов</p>{" "}
+                <br />
+                <p className="project-location sm:text-xl">
                   по 12-14 этажей, просторная застройка
                 </p>
               </div>
-              <div className="project bg-[url('hero-project3.png')]">
-                <p className="project-size">7 гектаров</p> <br />
-                <p className="project-location">
+              <div className="project bg-center bg-[url('hero-project3.png')]">
+                <p className="project-size text-xl sm:text-2xl">7 гектаров</p>{" "}
+                <br />
+                <p className="project-location sm:text-xl">
                   приватного парка для жителей ЖК
                 </p>
               </div>
-              <div className="project bg-[url('hero-project4.png')]">
-                <p className="project-size">2 километра</p> <br />
-                <p className="project-location">
+              <div className="project bg-center bg-[url('hero-project4.png')]">
+                <p className="project-size text-xl sm:text-2xl">2 километра</p>{" "}
+                <br />
+                <p className="project-location sm:text-xl">
                   набережной реки Раменка вдоль ЖК
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
         </section>
 
-        {/* <section id="location">
+        <section id="location">
           <div className="container">
-            <div className="mt-40">
+            <div className="mt-24 sm:mt-40">
               <h3>Престижное расположение</h3>
-              <h2>
+              <h2 className="text-3xl md:text-6xl">
                 Один из самых зелёных <br /> районов столицы — Раменки
               </h2>
-              <img className="mx-auto mt-10" src="location-map.png" alt="map" />
+              <img
+                className="mx-auto min-h-[200px] mt-10"
+                src="location-map.png"
+                alt="map"
+              />
               <p>
                 ЖК West Garden окружен Матвеевским лесом, набережной реки <br />{" "}
                 Раменки и природным заказником «Долина реки Сетунь»
@@ -114,71 +122,93 @@ function App() {
               </a>
             </div>
           </div>
-        </section> */}
+        </section>
 
-        {/* <section id="lobby">
+        <section id="lobby">
           <div className="container">
             <div className="pt-40">
-              <h2>Современная эстетика лобби</h2>
+              <h2 className="text-3xl md:text-6xl">
+                Современная эстетика лобби
+              </h2>
+              {/* part 1 */}
               <div className="part-1 rounded-xl bg-white mt-12">
-                <div className="head pt-10 px-14">
-                  <div className="description flex align-middle gap-2">
+                <div className="head pt-5 px-5 md:pt-10 md:px-14">
+                  <div className="description flex items-center gap-2">
                     <img src="lobby-door.png" alt="" />
-                    <h3>Центральные входные группы</h3>
+                    <h3 className="text-2xl sm:text-4xl">
+                      Центральные входные группы
+                    </h3>
                   </div>
-                  <div className="features gap-2 flex mt-5">
-                    <span className="feature flex align-middle gap-2 rounded-md px-4 py-2">
+                  <div className="features gap-2 flex flex-wrap mt-5">
+                    <span className="feature flex items-center gap-2 rounded-md px-4 py-2">
                       <img src="lobby-star.png" alt="star" />
                       <p>Зоны ожидания и встреч</p>
                     </span>
-                    <span className="feature rounded-md px-4 py-2 flex align-middle gap-2">
+                    <span className="feature rounded-md px-4 py-2 flex items-center gap-2">
                       <img src="lobby-star.png" alt="star" />
                       <p>Пост охраны</p>
                     </span>
-                    <span className="feature rounded-md flex align-middle gap-2 px-4 py-2">
+                    <span className="feature rounded-md flex items-center gap-2 px-4 py-2">
                       <img src="lobby-star.png" alt="star" />
                       <p>Переговорная комната</p>
                     </span>
-                    <span className="feature rounded-md px-4 py-2 flex align-middle gap-2">
+                    <span className="feature rounded-md px-4 py-2 flex items-center gap-2">
                       <img src="lobby-star.png" alt="star" />
                       <p>Колясочная</p>
                     </span>
                   </div>
                 </div>
-                <div className="images flex justify-between mt-10 px-5 pb-5">
-                  <img src="lobby-part1-1.png" alt="entrance-image" />
-                  <img src="lobby-part1-2.png" alt="entrance-image" />
+                <div className="images flex justify-between mt-10 gap-3 px-5 pb-5">
+                  <img
+                    className="w-1/2"
+                    src="lobby-part1-1.png"
+                    alt="entrance-image"
+                  />
+                  <img
+                    className="w-1/2"
+                    src="lobby-part1-2.png"
+                    alt="entrance-image"
+                  />
                 </div>
               </div>
+              {/* part 2 */}
               <div className="part-2 rounded-xl bg-white mt-3">
-                <div className="head pt-10 px-14">
-                  <div className="description flex align-middle gap-2">
+                <div className="head pt-5 px-5 md:pt-10 md:px-14">
+                  <div className="description flex items-center gap-2">
                     <img src="lobby-elevator.png" alt="elevator-image" />
-                    <h3>Лифтовый холл</h3>
+                    <h3 className="text-2xl sm:text-4xl">Лифтовый холл</h3>
                   </div>
-                  <div className="features gap-2 flex mt-5">
-                    <span className="feature flex align-middle gap-2 rounded-md px-4 py-2">
+                  <div className="features gap-2 flex flex-wrap mt-5">
+                    <span className="feature flex items-center gap-2 rounded-md px-4 py-2">
                       <img src="lobby-star.png" alt="star" />
                       <p>2-4 лифта</p>
                     </span>
-                    <span className="feature rounded-md px-4 py-2 flex align-middle gap-2">
+                    <span className="feature rounded-md px-4 py-2 flex items-center gap-2">
                       <img src="lobby-star.png" alt="star" />
                       <p>Грузовые и пассажирские</p>
                     </span>
-                    <span className="feature rounded-md flex align-middle gap-2 px-4 py-2">
+                    <span className="feature rounded-md flex items-center gap-2 px-4 py-2">
                       <img src="lobby-star.png" alt="star" />
                       <p>Ведущие производители</p>
                     </span>
                   </div>
                 </div>
-                <div className="images flex justify-between mt-10 px-5 pb-5">
-                  <img src="lobby-part2-1.png" alt="elevator-image" />
-                  <img src="lobby-part2-2.png" alt="elevator-image" />
+                <div className="images gap-3 flex justify-between mt-10 px-5 pb-5">
+                  <img
+                    className="w-1/2"
+                    src="lobby-part2-1.png"
+                    alt="elevator-image"
+                  />
+                  <img
+                    className="w-1/2"
+                    src="lobby-part2-2.png"
+                    alt="elevator-image"
+                  />
                 </div>
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* <section id="trim">
           <div className="container">

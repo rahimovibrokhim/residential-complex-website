@@ -63,28 +63,28 @@ function App() {
 
           <div className="container">
             <div className="projects mt-20 grid sm:grid-cols-2 gap-5">
-              <div className="project bg-center bg-[url('hero-project1.png')]">
+              <div className="project bg-center bg-[url('/hero-project1.png')]">
                 <p className="project-size text-xl sm:text-2xl">20 гектаров</p>{" "}
                 <br />
                 <p className="project-location sm:text-xl">
                   территории ЖК — это как полтора Зарядья
                 </p>
               </div>
-              <div className="project bg-center bg-[url('hero-project2.png')]">
+              <div className="project bg-center bg-[url('/hero-project2.png')]">
                 <p className="project-size text-xl sm:text-2xl">15 корпусов</p>{" "}
                 <br />
                 <p className="project-location sm:text-xl">
                   по 12-14 этажей, просторная застройка
                 </p>
               </div>
-              <div className="project bg-center bg-[url('hero-project3.png')]">
+              <div className="project bg-center bg-[url('/hero-project3.png')]">
                 <p className="project-size text-xl sm:text-2xl">7 гектаров</p>{" "}
                 <br />
                 <p className="project-location sm:text-xl">
                   приватного парка для жителей ЖК
                 </p>
               </div>
-              <div className="project bg-center bg-[url('hero-project4.png')]">
+              <div className="project bg-center bg-[url('/hero-project4.png')]">
                 <p className="project-size text-xl sm:text-2xl">2 километра</p>{" "}
                 <br />
                 <p className="project-location sm:text-xl">
@@ -130,7 +130,6 @@ function App() {
               <h2 className="text-3xl md:text-6xl">
                 Современная эстетика лобби
               </h2>
-              {/* part 1 */}
               <div className="part-1 rounded-xl bg-white mt-12">
                 <div className="head pt-5 px-5 md:pt-10 md:px-14">
                   <div className="description flex items-center gap-2">
@@ -171,7 +170,6 @@ function App() {
                   />
                 </div>
               </div>
-              {/* part 2 */}
               <div className="part-2 rounded-xl bg-white mt-3">
                 <div className="head pt-5 px-5 md:pt-10 md:px-14">
                   <div className="description flex items-center gap-2">

@@ -287,9 +287,6 @@ header {
         letter-spacing: -1px;
     }
 
-    // .boxes .box{
-    //     width: 50%;
-    // }
 
     h3 {
         color: var(--text-primary, #1A1A1A);
@@ -329,12 +326,11 @@ header {
     .example {
         h4 {
             color: var(--text-primary, #1A1A1A);
-            font-size: 40px;
             font-family: TT Travels;
             font-style: normal;
             font-weight: 500;
             line-height: 100%;
-            letter-spacing: -1.2px;
+            letter-spacing: -1px;
         }
 
         a {
@@ -449,5 +445,11 @@ header {
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:376px) {
+    #trim .example .head {
+        place-content: center !important;
     }
 }

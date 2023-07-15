@@ -104,7 +104,7 @@ function App() {
               </h2>
               <img
                 className="mx-auto min-h-[200px] mt-10"
-                src="../public/location-map.png"
+                src="/public/location-map.png"
                 alt="map"
               />
               <p>
@@ -261,27 +261,28 @@ function App() {
                   </div>
                 </div>
               </div>
-              {/* <h2 className="mt-40">2 варианта отделки</h2>
+              {/* 2nd example */}
+              <h2 className="mt-40 text-3xl md:text-6xl">2 варианта отделки</h2>
               <div className="line w-full mt-10"></div>
-              <div className="example mt-10 example-1">
-                <div className="head flex justify-between items-center">
-                  <h4>Светлая отделка</h4>
+              <div className="example light-ex mt-10 example-1">
+                <div className="head flex flex-wrap gap-3 justify-between items-center">
+                  <h4 className="text-2xl sm:text-4xl">Светлая отделка</h4>
                   <a
                     href="#"
-                    className="rounded-xl px-6 py-4 text-white"
+                    className="rounded-xl px-3 sm:px-6 py-2 sm:py-4 text-white"
                     download={"logo.png"}
                   >
                     Скачать дизайн-буклет
                   </a>
                 </div>
                 <div className="mt-8 gap-4">
-                  <div className="flex gap-4">
+                  <div className="flex flex-wrap-reverse md:flex-nowrap gap-4">
                     <img
-                      className="col-span-2"
+                      className="w-full md:w-2/3"
                       src="trim-example1-1.png"
                       alt="room-photo"
                     />
-                    <div className="description p-10 bg-white">
+                    <div className="description md:w-1/3 p-5 xl:p-10 bg-white">
                       <div className="flex">
                         <img src="trim-circle1.png" alt="deco" />
                         <img
@@ -303,40 +304,41 @@ function App() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex mt-4 justify-between">
+                  <div className="flex mt-4 gap-3 justify-between">
                     <img
-                      className="col-span-1"
+                      className="w-1/2 md:w-1/3"
                       src="trim-example1-2.png"
-                      alt=""
+                      alt="image"
                     />
                     <img
-                      className="col-span-2"
+                      className="w-1/2 md:w-2/3"
                       src="trim-example1-3.png"
-                      alt=""
+                      alt="image"
                     />
                   </div>
                 </div>
               </div>
               <div className="line w-full mt-20"></div>
-              <div className="example mt-10 example-2">
-                <div className="head flex justify-between items-center">
-                  <h4>Тёмная отделка</h4>
+              {/*  */}
+              <div className="example dark-ex mt-10 example-2">
+                <div className="head flex flex-wrap gap-3 justify-between items-center">
+                  <h4 className="text-2xl sm:text-4xl">Тёмная отделка</h4>
                   <a
                     href="#"
-                    className="rounded-xl px-6 py-4 text-white"
+                    className="rounded-xl px-3 sm:px-6 py-2 sm:py-4 text-white"
                     download={"logo.png"}
                   >
                     Скачать дизайн-буклет
                   </a>
                 </div>
                 <div className="mt-8 gap-4">
-                  <div className="flex gap-4">
+                  <div className="flex flex-wrap-reverse md:flex-nowrap gap-4">
                     <img
-                      className="col-span-2"
+                      className="w-full md:w-2/3"
                       src="trim-example2-1.png"
                       alt="room-photo"
                     />
-                    <div className="description p-10 bg-">
+                    <div className="description md:w-1/3 p-5 xl:p-10">
                       <div className="flex">
                         <img src="trim-circle4.png" alt="deco" />
                         <img
@@ -358,20 +360,20 @@ function App() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex mt-4 justify-between">
+                  <div className="flex mt-4 gap-3 justify-between">
                     <img
-                      className="col-span-1"
+                      className="w-1/2 md:w-1/3"
                       src="trim-example2-2.png"
                       alt=""
                     />
                     <img
-                      className="col-span-2"
+                      className="w-1/2 md:w-2/3"
                       src="trim-example2-3.png"
                       alt=""
                     />
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </section>

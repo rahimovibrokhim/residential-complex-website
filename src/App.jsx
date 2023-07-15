@@ -95,7 +95,7 @@ function App() {
           </div>
         </section>
 
-         <section id="location">
+        <section id="location">
           <div className="container">
             <div className="mt-24 sm:mt-40">
               <h3>Престижное расположение</h3>
@@ -104,7 +104,7 @@ function App() {
               </h2>
               <img
                 className="mx-auto min-h-[200px] mt-10"
-                src="location-map.png"
+                src="../public/location-map.png"
                 alt="map"
               />
               <p>
@@ -117,7 +117,7 @@ function App() {
               >
                 <span>
                   <img src="location-360degree.png" alt="Panorama" />
-                  <p>Панорама района 360˚</p>
+                  <p className="hover:text-white">Панорама района 360˚</p>
                 </span>
               </a>
             </div>
@@ -208,22 +208,24 @@ function App() {
           </div>
         </section>
 
-        {/* <section id="trim">
+        <section id="trim">
           <div className="container">
             <div className="mt-40">
-              <h2>Отделка от застройщика</h2>
+              <h2 className="text-3xl md:text-6xl">Отделка от застройщика</h2>
               <h3 className="mt-5 underline underline-offset-8">
                 Экономьте на стоимости ремонта, покупая квартиру с готовой
                 отделкой
               </h3>
-              <div className="boxes gap-5 mt-14 grid grid-cols-3">
+              <div className="boxes gap-5 mt-14 grid grid-cols-2 md:grid-cols-3">
                 <div className="box rounded-xl bg-white">
                   <div className="head px-2 pt-2">
                     <img src="trim-box1.png" alt="design" />
                   </div>
-                  <div className="body mt-5 px-6 pb-6">
-                    <h4>Готовый дизайн-проект</h4>
-                    <p className="mt-3 ">
+                  <div className="body mt-5 px-3 lg:px-6 pb-6">
+                    <h4 className="text-2xl lg:text-3xl">
+                      Готовый дизайн-проект
+                    </h4>
+                    <p className="mt-3 text-lg lg:text-xl">
                       Воспользуйтесь возможностью сразу же заняться меблировкой
                       и благоустройством новой квартиры, как только получите
                       ключи
@@ -234,28 +236,32 @@ function App() {
                   <div className="head px-2 pt-2">
                     <img src="trim-box2.png" alt="design" />
                   </div>
-                  <div className="body mt-5 px-6 pb-6">
-                    <h4>Чистота и тишина, без шума и пыли</h4>
-                    <p className="mt-3 ">
+                  <div className="body mt-5 px-3 lg:px-6 pb-6">
+                    <h4 className="text-2xl lg:text-3xl">
+                      Чистота и тишина, без шума и пыли
+                    </h4>
+                    <p className="mt-3 text-lg lg:text-xl">
                       Забудьте шум от «бесконечного ремонта» соседей и лифт,
                       декорированный защитными материалами
                     </p>
                   </div>
                 </div>
-                <div className="box rounded-xl bg-white">
+                <div className="box place-self-center rounded-xl bg-white">
                   <div className="head px-2 pt-2">
                     <img src="trim-box3.png" alt="design" />
                   </div>
-                  <div className="body mt-5 px-6 pb-6">
-                    <h4>Выгода за счет оптовых закупок</h4>
-                    <p className="mt-3 ">
+                  <div className="body mt-5 px-3 lg:px-6 pb-6">
+                    <h4 className="text-2xl lg:text-3xl">
+                      Выгода за счет оптовых закупок
+                    </h4>
+                    <p className="mt-3 text-lg lg:text-xl">
                       Copy Благодаря оптовым закупкам застройщика, вы получаете
                       возможность сэкономитьна стоимости ремонта
                     </p>
                   </div>
                 </div>
               </div>
-              <h2 className="mt-40">2 варианта отделки</h2>
+              {/* <h2 className="mt-40">2 варианта отделки</h2>
               <div className="line w-full mt-10"></div>
               <div className="example mt-10 example-1">
                 <div className="head flex justify-between items-center">
@@ -365,10 +371,10 @@ function App() {
                     />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
-        </section> */}
+        </section>
 
         <div className="mt-40"></div>
       </main>

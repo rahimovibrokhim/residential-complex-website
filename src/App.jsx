@@ -104,7 +104,7 @@ function App() {
               </h2>
               <img
                 className="mx-auto min-h-[200px] mt-10"
-                src="/public/location-map.png"
+                src="location-map.png"
                 alt="map"
               />
               <p>
@@ -126,7 +126,7 @@ function App() {
 
         <section id="lobby">
           <div className="container">
-            <div className="pt-40">
+            <div className="pt-24 sm:pt-40">
               <h2 className="text-3xl md:text-6xl">
                 Современная эстетика лобби
               </h2>
@@ -210,7 +210,7 @@ function App() {
 
         <section id="trim">
           <div className="container">
-            <div className="mt-40">
+            <div className="mt-20 sm:mt-40">
               <h2 className="text-3xl md:text-6xl">Отделка от застройщика</h2>
               <h3 className="mt-5 underline underline-offset-8">
                 Экономьте на стоимости ремонта, покупая квартиру с готовой
@@ -262,7 +262,7 @@ function App() {
                 </div>
               </div>
               {/* 2nd example */}
-              <h2 className="mt-40 text-3xl md:text-6xl">2 варианта отделки</h2>
+              <h2 className="mt-20 sm:mt-40 text-3xl md:text-6xl">2 варианта отделки</h2>
               <div className="line w-full mt-10"></div>
               <div className="example light-ex mt-10 example-1">
                 <div className="head flex flex-wrap gap-3 justify-between items-center">
@@ -304,14 +304,14 @@ function App() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex mt-4 gap-3 justify-between">
+                  <div className="flex image-examples mt-4 justify-between">
                     <img
-                      className="w-1/2 md:w-1/3"
+                      className="img-1"
                       src="trim-example1-2.png"
                       alt="image"
                     />
                     <img
-                      className="w-1/2 md:w-2/3"
+                      className="img-2"
                       src="trim-example1-3.png"
                       alt="image"
                     />
@@ -360,14 +360,14 @@ function App() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex mt-4 gap-3 justify-between">
+                  <div className="image-examples flex mt-4 justify-between">
                     <img
-                      className="w-1/2 md:w-1/3"
+                      className="img-1"
                       src="trim-example2-2.png"
                       alt=""
                     />
                     <img
-                      className="w-1/2 md:w-2/3"
+                      className="img-2"
                       src="trim-example2-3.png"
                       alt=""
                     />

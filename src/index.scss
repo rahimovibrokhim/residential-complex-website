@@ -360,6 +360,13 @@ header {
         }
     }
 
+    .image-examples .img-1 {
+        width: 40%;
+    }
+    .image-examples .img-2 {
+        width: 58%;
+    }
+
     .example-2 .description {
         background-color: #42352A;
 
@@ -444,6 +451,9 @@ header {
                     text-align: center;
                 }
             }
+        }
+        .image-examples img{
+            width: 49% !important;
         }
     }
 }

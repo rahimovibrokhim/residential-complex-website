@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -202,7 +201,7 @@ header {
         text-align: center;
         font-family: Inter;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 100%;
         letter-spacing: -1px;
         margin-top: 16px;
@@ -253,7 +252,7 @@ header {
         color: var(--text-primary, #1A1A1A);
         font-family: Inter;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 100%;
         letter-spacing: -1px;
         text-align: center;
@@ -283,7 +282,7 @@ header {
         text-align: center;
         font-family: Inter;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 100%;
         letter-spacing: -1px;
     }

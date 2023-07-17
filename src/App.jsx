@@ -99,7 +99,7 @@ function App() {
           <div className="container">
             <div className="mt-24 sm:mt-40">
               <h3>Престижное расположение</h3>
-              <h2 className="text-3xl md:text-6xl">
+              <h2 className="text-3xl md:text-5xl">
                 Один из самых зелёных <br /> районов столицы — Раменки
               </h2>
               <img
@@ -280,11 +280,11 @@ function App() {
                 <div className="mt-8 gap-4">
                   <div className="flex flex-wrap-reverse md:flex-nowrap gap-4">
                     <img
-                      className="w-full md:w-2/3"
+                      className="w-full md:w-1/2 lg:w-2/3"
                       src="trim-example1-1.png"
                       alt="room-photo"
                     />
-                    <div className="description md:w-1/3 p-5 xl:p-10 bg-white">
+                    <div className="description w-full md:w-1/2 lg:w-1/3 p-5 xl:p-10 bg-white">
                       <div className="flex">
                         <img src="trim-circle1.png" alt="deco" />
                         <img
@@ -336,11 +336,11 @@ function App() {
                 <div className="mt-8 gap-4">
                   <div className="flex flex-wrap-reverse md:flex-nowrap gap-4">
                     <img
-                      className="w-full md:w-2/3"
+                      className="w-full md:w-1/2 lg:w-2/3"
                       src="trim-example2-1.png"
                       alt="room-photo"
                     />
-                    <div className="description md:w-1/3 p-5 xl:p-10">
+                    <div className="description w-full md:1/2 lg:w-1/3 p-5 xl:p-10">
                       <div className="flex">
                         <img src="trim-circle4.png" alt="deco" />
                         <img

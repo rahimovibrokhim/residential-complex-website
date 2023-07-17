@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container,
 .container-2 {
     max-width: 1440px;
@@ -363,6 +367,7 @@ header {
     .image-examples .img-1 {
         width: 40%;
     }
+
     .image-examples .img-2 {
         width: 58%;
     }
@@ -374,6 +379,53 @@ header {
             color: var(--line-dark, #C2BDB6);
         }
     }
+}
+
+footer {
+
+    h3 {
+        color: var(--text-primary, #1A1A1A);
+        font-family: TT Travels;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        // letter-spacing: -1px;
+    }
+
+    .divider {
+        border: 1px solid #EAE3D9;
+    }
+
+    .sm-divider {
+        height: 14px;
+        width: 2px;
+        border: 1px solid #EAE3D9;
+        background-color: #EAE3D9;
+    }
+
+    h6 {
+        color: var(--text-primary, #1A1A1A);
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.24px;
+    }
+
+    h5 {
+        color: var(--text-primary, #1A1A1A);
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.24px;
+    }
+
+    // img{
+    //     @media screen and (max-width:768px) {
+             
+    //     }
+    // }
 }
 
 @media screen and (max-width:1200px) {
@@ -389,6 +441,18 @@ header {
 
     .container-2 {
         padding: 0 30px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    footer {
+        .left {
+            width: 60%;
+        }
+
+        .right {
+            width: 40%;
+        }
     }
 }
 
@@ -452,8 +516,15 @@ header {
                 }
             }
         }
-        .image-examples img{
+
+        .image-examples img {
             width: 49% !important;
+        }
+    }
+
+    footer{
+        .f-estes-logo{
+            max-width: 117px !important;
         }
     }
 }
@@ -461,5 +532,10 @@ header {
 @media screen and (max-width:376px) {
     #trim .example .head {
         place-content: center !important;
+    }
+
+    .container,
+    .container-2 {
+        padding: 0 8px;
     }
 }

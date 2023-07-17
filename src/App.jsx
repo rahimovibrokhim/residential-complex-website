@@ -262,7 +262,9 @@ function App() {
                 </div>
               </div>
               {/* 2nd example */}
-              <h2 className="mt-20 sm:mt-40 text-3xl md:text-6xl">2 варианта отделки</h2>
+              <h2 className="mt-20 sm:mt-40 text-3xl md:text-6xl">
+                2 варианта отделки
+              </h2>
               <div className="line w-full mt-10"></div>
               <div className="example light-ex mt-10 example-1">
                 <div className="head flex flex-wrap gap-3 justify-between items-center">
@@ -361,16 +363,8 @@ function App() {
                     </div>
                   </div>
                   <div className="image-examples flex mt-4 justify-between">
-                    <img
-                      className="img-1"
-                      src="trim-example2-2.png"
-                      alt=""
-                    />
-                    <img
-                      className="img-2"
-                      src="trim-example2-3.png"
-                      alt=""
-                    />
+                    <img className="img-1" src="trim-example2-2.png" alt="example-image" />
+                    <img className="img-2" src="trim-example2-3.png" alt="example-image" />
                   </div>
                 </div>
               </div>
@@ -380,6 +374,47 @@ function App() {
 
         <div className="mt-40"></div>
       </main>
+
+      <footer className="bg-white py-8 sm:py-16">
+        <div className="container">
+          <div className="top flex flex-wrap-reverse sm:flex-nowrap justify-center sm:justify-between items-center gap-3 sm:gap-0">
+            <h3 className="text-xl lg:text-4xl">
+              Жилой комплекс «West Garden» — <br /> все преимущества жизни на
+              природе
+            </h3>
+            <a href="#">
+              <img src="footer-logo.svg" alt="logo" />
+            </a>
+          </div>
+          <div className="divider mt-3 sm:mt-5"></div>
+          <div className="information flex flex-col md:flex-row">
+            <div className="left lg:w-1/2">
+              <div className="1-floor justify-between flex items-center gap-5 py-5 md:py-10">
+                <img className="f-estes-logo" src="footer-estes-logo.png" alt="estes-logo" />
+                <div className="sm-divider"></div>
+                <p className="uppercase text-xs sm:text-base">
+                  эксперты <br /> недвижемости
+                </p>
+              </div>
+              <div className="divider"></div>
+              <div className="2-floor flex justify-between pt-3 pb-10">
+                <h6 className="text-base sm:text-2xl">Офис продаж</h6>
+                <h5 className="text-base sm:text-2xl">
+                  Москва, Лужнецкая наб. <br /> 2/4, строение 17, офис 308
+                </h5>
+              </div>
+              <div className="divider"></div>
+              <div className="3-floor flex justify-between pt-3">
+                <h6 className="text-base sm:text-2xl">Телефон</h6>
+                <h5 className="text-base sm:text-2xl">+7 495 845 19 34</h5>
+              </div>
+            </div>
+            <div className="right hidden  md:block  lg:w-1/2">
+              <img className="w-full h-full" src="footer-map.png" alt="map" />
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }

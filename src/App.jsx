@@ -411,14 +411,19 @@ function App() {
               <div className="divider"></div>
               <div className="second-floor flex justify-between pt-3 pb-10">
                 <h6 className="text-base sm:text-2xl">Офис продаж</h6>
-                <h5 className="text-base sm:text-xl">
+                <a
+                  href="https://goo.gl/maps/yFL4Z3QUmjvRc2H8A"
+                  className="text-base sm:text-xl"
+                >
                   Москва, Лужнецкая наб. <br /> 2/4, строение 17, офис 308
-                </h5>
+                </a>
               </div>
               <div className="divider"></div>
               <div className="third-floor flex justify-between pt-3 pb-5">
                 <h6 className="text-base sm:text-2xl">Телефон</h6>
-                <h5 className="text-base sm:text-xl">+7 495 845 19 34</h5>
+                <a href="tel:+7 495 845 19 34" className="text-base sm:text-xl">
+                  +7 495 845 19 34
+                </a>
               </div>
             </div>
             <div className="right hidden  md:block  lg:w-1/2">

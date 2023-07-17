@@ -409,7 +409,7 @@ footer {
         letter-spacing: -0.24px;
     }
 
-    h5 {
+    a {
         color: var(--text-primary, #1A1A1A);
         font-family: Inter;
         font-style: normal;
@@ -443,15 +443,9 @@ footer {
     }
 }
 
-@media screen and (min-width:768px) {
-    footer {
-        .left {
-            width: 60%;
-        }
-
-        .right {
-            width: 40%;
-        }
+@media screen and (max-width:768px) {
+    .image-examples img {
+        width: 49% !important;
     }
 }
 
@@ -515,10 +509,6 @@ footer {
                 }
             }
         }
-
-        .image-examples img {
-            width: 49% !important;
-        }
     }
 
     footer {
@@ -536,5 +526,19 @@ footer {
     .container,
     .container-2 {
         padding: 0 8px;
+    }
+}
+
+
+// min
+@media screen and (min-width:768px) {
+    footer {
+        .left {
+            width: 60%;
+        }
+
+        .right {
+            width: 40%;
+        }
     }
 }

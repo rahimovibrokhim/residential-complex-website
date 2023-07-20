@@ -317,6 +317,10 @@ header {
             line-height: 30px;
             letter-spacing: -0.2px;
         }
+        img{
+            width: 1000px;
+            max-height: 250px;
+        }
     }
 
     .line {
@@ -477,8 +481,11 @@ footer {
 
     #lobby {
         .feature {
-            margin: 0 auto;
-            min-width: 250px;
+            background-color: white;
+            border-bottom: 1px solid black;
+            border-radius: 0;
+            padding: 12px 0;
+            width: 100%;
         }
 
         .images {
